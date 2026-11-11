@@ -1,0 +1,6 @@
+{
+  "name": "Galaxy Watch Activity Bezel Tracker",
+  "description": "Wear OS Java project & interactive Samsung Galaxy Watch simulator for zero-click 10-minute activity tracking via rotating bezel.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
