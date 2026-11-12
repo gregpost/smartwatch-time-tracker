@@ -1,16 +1,23 @@
 {
   "repoUrl": "https://github.com/gregpost/smartwatch-time-tracker",
   "branch": "main",
-  "version": "0.1.33-activity-log",
-  "baseVersion": "0.1.33",
+  "version": "0.1.34-activity-log",
+  "baseVersion": "0.1.34",
   "versionPostfix": "activity-log",
   "lastCommitMessage": "Фиксация активности \"Спорт\" на интервале 17:11",
-  "lastPushTime": "2026-11-12T14:11:01.886Z",
+  "lastPushTime": "2026-11-12T14:11:19.294Z",
   "lastPushStatus": "success",
-  "lastCommitHash": "8048493",
+  "lastCommitHash": "7596575",
   "conflictDetails": null,
   "suggestedActions": [],
   "history": [
+    {
+      "version": "0.1.33-activity-log",
+      "timestamp": "2026-11-12T14:11:19.294Z",
+      "message": "Фиксация активности \"Спорт\" на интервале 17:11",
+      "hash": "7596575",
+      "status": "success"
+    },
     {
       "version": "0.1.32-activity-log",
       "timestamp": "2026-11-12T14:11:01.886Z",
@@ -212,13 +219,6 @@
       "timestamp": "2026-11-12T14:02:54.208Z",
       "message": "Фиксация активности \"Отдых\" на интервале 17:03",
       "hash": "83621ef",
-      "status": "success"
-    },
-    {
-      "version": "0.1.3-hmr-fix",
-      "timestamp": "2026-11-12T12:29:22.285Z",
-      "message": "Исправлена обработка WebSocket и HMR соединений в dev сервере",
-      "hash": "bf8323c",
       "status": "success"
     }
   ]
