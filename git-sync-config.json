@@ -1,16 +1,23 @@
 {
   "repoUrl": "https://github.com/gregpost/smartwatch-time-tracker",
   "branch": "main",
-  "version": "0.1.674-activity-log",
-  "baseVersion": "0.1.674",
+  "version": "0.1.675-activity-log",
+  "baseVersion": "0.1.675",
   "versionPostfix": "activity-log",
   "lastCommitMessage": "Фиксация активности \"Спорт\" на интервале 20:24",
-  "lastPushTime": "2026-11-12T17:23:26.589Z",
+  "lastPushTime": "2026-11-12T17:23:44.417Z",
   "lastPushStatus": "success",
-  "lastCommitHash": "d988f72",
+  "lastCommitHash": "fba04a9",
   "conflictDetails": null,
   "suggestedActions": [],
   "history": [
+    {
+      "version": "0.1.674-activity-log",
+      "timestamp": "2026-11-12T17:23:44.417Z",
+      "message": "Фиксация активности \"Спорт\" на интервале 20:24",
+      "hash": "fba04a9",
+      "status": "success"
+    },
     {
       "version": "0.1.673-activity-log",
       "timestamp": "2026-11-12T17:23:26.589Z",
@@ -212,13 +219,6 @@
       "timestamp": "2026-11-12T17:13:10.034Z",
       "message": "Фиксация активности \"Спорт\" на интервале 20:13",
       "hash": "472615f",
-      "status": "success"
-    },
-    {
-      "version": "0.1.637-activity-log",
-      "timestamp": "2026-11-12T17:12:52.311Z",
-      "message": "Фиксация активности \"Спорт\" на интервале 20:13",
-      "hash": "adc4419",
       "status": "success"
     }
   ]
