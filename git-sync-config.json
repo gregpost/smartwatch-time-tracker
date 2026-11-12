@@ -1,27 +1,23 @@
 {
   "repoUrl": "https://github.com/gregpost/smartwatch-time-tracker",
   "branch": "main",
-  "version": "0.1.2-token-setup",
-  "baseVersion": "0.1.2",
-  "versionPostfix": "token-setup",
-  "lastCommitMessage": "Настройка токена авторизации GitHub",
-  "lastPushTime": "2026-11-12T12:23:53.401Z",
-  "lastPushStatus": "auth_required",
-  "lastCommitHash": "0090a82",
-  "conflictDetails": "Требуется токен GitHub Personal Access Token (PAT) для доступа на запись в https://github.com/gregpost/smartwatch-time-tracker. Токен можно создать в настройках GitHub с областью repo / contents.",
-  "suggestedActions": [
-    {
-      "id": "enter_token",
-      "label": "Ввести GitHub Personal Access Token (PAT)",
-      "description": "Вставьте ваш токен (ghp_...) для авторизованной отправки в репозиторий"
-    },
-    {
-      "id": "pull_rebase",
-      "label": "Синхронизировать (Pull / Rebase)",
-      "description": "Стянуть последние изменения из удаленной ветки"
-    }
-  ],
+  "version": "0.1.3-hmr-fix",
+  "baseVersion": "0.1.3",
+  "versionPostfix": "hmr-fix",
+  "lastCommitMessage": "Исправлена обработка WebSocket и HMR соединений в dev сервере",
+  "lastPushTime": "2026-11-12T12:28:59.690Z",
+  "lastPushStatus": "success",
+  "lastCommitHash": "c0496b6",
+  "conflictDetails": null,
+  "suggestedActions": [],
   "history": [
+    {
+      "version": "0.1.2-token-setup",
+      "timestamp": "2026-11-12T12:28:59.690Z",
+      "message": "Настройка токена авторизации GitHub",
+      "hash": "c0496b6",
+      "status": "success"
+    },
     {
       "version": "0.1.1-github-autopush",
       "timestamp": "2026-11-12T12:23:53.401Z",
