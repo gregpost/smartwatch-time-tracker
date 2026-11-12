@@ -1,16 +1,34 @@
 {
   "repoUrl": "https://github.com/gregpost/smartwatch-time-tracker",
   "branch": "main",
-  "version": "0.1.694-activity-log",
-  "baseVersion": "0.1.694",
+  "version": "0.1.695-activity-log",
+  "baseVersion": "0.1.695",
   "versionPostfix": "activity-log",
-  "lastCommitMessage": "Фиксация активности \"Спорт\" на интервале 20:29",
-  "lastPushTime": "2026-11-12T17:29:22.139Z",
-  "lastPushStatus": "success",
-  "lastCommitHash": "756d1db",
-  "conflictDetails": null,
-  "suggestedActions": [],
+  "lastCommitMessage": "Фиксация активности \"Спорт\" на интервале 20:30",
+  "lastPushTime": "2026-11-12T17:29:39.798Z",
+  "lastPushStatus": "error",
+  "lastCommitHash": "f249f08",
+  "conflictDetails": "Ошибка при отправке: error: could not lock config file /root/.gitconfig: File exists\n",
+  "suggestedActions": [
+    {
+      "id": "retry",
+      "label": "Повторить попытку",
+      "description": "Повторить выполнение push"
+    },
+    {
+      "id": "pull_rebase",
+      "label": "Синхронизировать с origin/main",
+      "description": "Стянуть обновления перед отправкой"
+    }
+  ],
   "history": [
+    {
+      "version": "0.1.694-activity-log",
+      "timestamp": "2026-11-12T17:29:39.798Z",
+      "message": "Фиксация активности \"Спорт\" на интервале 20:29",
+      "hash": "f249f08",
+      "status": "error"
+    },
     {
       "version": "0.1.693-activity-log",
       "timestamp": "2026-11-12T17:29:22.139Z",
@@ -212,13 +230,6 @@
       "timestamp": "2026-11-12T17:21:05.379Z",
       "message": "Фиксация активности \"Спорт\" на интервале 20:21",
       "hash": "f912aa2",
-      "status": "success"
-    },
-    {
-      "version": "0.1.664-activity-log",
-      "timestamp": "2026-11-12T17:20:47.681Z",
-      "message": "Фиксация активности \"Спорт\" на интервале 20:21",
-      "hash": "a655a29",
       "status": "success"
     }
   ]
