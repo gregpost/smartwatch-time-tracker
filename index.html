@@ -3,6 +3,22 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script>
+      // Ignore WebSocket and Vite client transport errors per AI Studio environment constraints
+      window.addEventListener('error', function(e) {
+        if (e && (e.message?.includes('WebSocket') || e.filename?.includes('@vite/client') || e.message?.includes('createWebSocketModuleRunnerTransport'))) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+      window.addEventListener('unhandledrejection', function(e) {
+        var reason = e && (e.reason?.message || e.reason?.stack || String(e.reason));
+        if (reason && (reason.includes('WebSocket') || reason.includes('@vite/client') || reason.includes('createWebSocketModuleRunnerTransport'))) {
+          e.stopImmediatePropagation();
+          e.preventDefault();
+        }
+      }, true);
+    </script>
     <title>Samsung Galaxy Watch - Bezel Activity Tracker (Java)</title>
     <meta name="description" content="Java проект для Samsung Galaxy Watch с трекингом активности каждые 10 минут вращением безеля без нажатий." />
     <meta property="og:title" content="Samsung Galaxy Watch - Bezel Activity Tracker (Java)" />

@@ -1,7 +1,7 @@
 {
   "name": "react-example",
   "private": true,
-  "version": "0.1.1-github-autopush",
+  "version": "0.1.2-token-setup",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
