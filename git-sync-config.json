@@ -1,16 +1,23 @@
 {
   "repoUrl": "https://github.com/gregpost/smartwatch-time-tracker",
   "branch": "main",
-  "version": "0.1.31-activity-log",
-  "baseVersion": "0.1.31",
+  "version": "0.1.32-activity-log",
+  "baseVersion": "0.1.32",
   "versionPostfix": "activity-log",
   "lastCommitMessage": "Фиксация активности \"Спорт\" на интервале 17:11",
-  "lastPushTime": "2026-11-12T14:10:27.054Z",
+  "lastPushTime": "2026-11-12T14:10:44.464Z",
   "lastPushStatus": "success",
-  "lastCommitHash": "17c1de0",
+  "lastCommitHash": "da203ac",
   "conflictDetails": null,
   "suggestedActions": [],
   "history": [
+    {
+      "version": "0.1.31-activity-log",
+      "timestamp": "2026-11-12T14:10:44.464Z",
+      "message": "Фиксация активности \"Спорт\" на интервале 17:11",
+      "hash": "da203ac",
+      "status": "success"
+    },
     {
       "version": "0.1.30-activity-log",
       "timestamp": "2026-11-12T14:10:27.054Z",
@@ -213,13 +220,6 @@
       "message": "Настройка токена авторизации GitHub",
       "hash": "c0496b6",
       "status": "success"
-    },
-    {
-      "version": "0.1.1-github-autopush",
-      "timestamp": "2026-11-12T12:23:53.401Z",
-      "message": "Добавлен автопуш в публичный репозиторий, инкремент версий с постфиксом, статус на главном экране и обработка конфликтов",
-      "hash": "0090a82",
-      "status": "auth_required"
     }
   ]
 }
