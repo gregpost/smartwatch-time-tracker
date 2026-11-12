@@ -22,6 +22,7 @@ import { GalaxyWatchSimulator } from './components/GalaxyWatchSimulator';
 import { CodeExplorer } from './components/CodeExplorer';
 import { ActivityTimeline } from './components/ActivityTimeline';
 import { WatchGuide } from './components/WatchGuide';
+import { GitSyncBar } from './components/GitSyncBar';
 import { exportAndroidProjectZip } from './utils/zipExporter';
 
 type ActiveTab = 'simulator' | 'code' | 'timeline' | 'guide';
@@ -57,10 +58,27 @@ export default function App() {
 
   const handleLogActivity = (entry: ActivityLogEntry) => {
     saveLogs([entry, ...logs]);
+    // Auto commit and push activity change to GitHub repository
+    fetch('/api/git/commit-and-push', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        reason: `Фиксация активности "${entry.activityName}" на интервале ${entry.formattedTime}`,
+        postfix: 'activity-log'
+      })
+    }).catch(() => {});
   };
 
   const handleClearLogs = () => {
     saveLogs([]);
+    fetch('/api/git/commit-and-push', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({
+        reason: 'Очистка журнала интервалов активности',
+        postfix: 'clear-logs'
+      })
+    }).catch(() => {});
   };
 
   const seedSampleLogs = () => {
@@ -191,6 +209,9 @@ export default function App() {
 
       {/* Main Container */}
       <main className="flex-1 max-w-7xl w-full mx-auto p-4 sm:p-6 lg:p-8">
+        {/* Prominent Git Auto-Sync & Versioning Bar */}
+        <GitSyncBar />
+
         {activeTab === 'simulator' && (
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
             

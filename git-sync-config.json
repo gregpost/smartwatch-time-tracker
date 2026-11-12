@@ -1,0 +1,40 @@
+{
+  "repoUrl": "https://github.com/gregpost/smartwatch-time-tracker",
+  "branch": "main",
+  "version": "0.1.1-github-autopush",
+  "baseVersion": "0.1.1",
+  "versionPostfix": "github-autopush",
+  "lastCommitMessage": "Добавлен автопуш в публичный репозиторий, инкремент версий с постфиксом, статус на главном экране и обработка конфликтов",
+  "lastPushTime": "2026-11-12T12:23:53.401Z",
+  "lastPushStatus": "auth_required",
+  "lastCommitHash": "0090a82",
+  "conflictDetails": "Требуется токен GitHub Personal Access Token (PAT) для доступа на запись в https://github.com/gregpost/smartwatch-time-tracker. Токен можно создать в настройках GitHub с областью repo / contents.",
+  "suggestedActions": [
+    {
+      "id": "enter_token",
+      "label": "Ввести GitHub Personal Access Token (PAT)",
+      "description": "Вставьте ваш токен (ghp_...) для авторизованной отправки в репозиторий"
+    },
+    {
+      "id": "pull_rebase",
+      "label": "Синхронизировать (Pull / Rebase)",
+      "description": "Стянуть последние изменения из удаленной ветки"
+    }
+  ],
+  "history": [
+    {
+      "version": "0.1.1-github-autopush",
+      "timestamp": "2026-11-12T12:23:53.401Z",
+      "message": "Добавлен автопуш в публичный репозиторий, инкремент версий с постфиксом, статус на главном экране и обработка конфликтов",
+      "hash": "0090a82",
+      "status": "auth_required"
+    },
+    {
+      "version": "0.1.0-github-autopush",
+      "timestamp": "2026-11-12T12:21:00.000Z",
+      "message": "Добавлен функционал автокоммита и автопуша в GitHub репозиторий с инкрементом версий, статусом на главном экране и обработкой конфликтов",
+      "hash": "",
+      "status": "auth_required"
+    }
+  ]
+}
