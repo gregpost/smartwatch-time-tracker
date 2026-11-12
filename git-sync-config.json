@@ -1,27 +1,23 @@
 {
   "repoUrl": "https://github.com/gregpost/smartwatch-time-tracker",
   "branch": "main",
-  "version": "0.1.648-activity-log",
-  "baseVersion": "0.1.648",
+  "version": "0.1.649-activity-log",
+  "baseVersion": "0.1.649",
   "versionPostfix": "activity-log",
   "lastCommitMessage": "Фиксация активности \"Спорт\" на интервале 20:16",
-  "lastPushTime": "2026-11-12T17:15:58.347Z",
-  "lastPushStatus": "error",
-  "lastCommitHash": "2144a23",
-  "conflictDetails": "Ошибка при отправке: To https://github.com/gregpost/smartwatch-time-tracker.git\n ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 5d0c1bd60b168508479cd2d0a67cc551d01c39b3 but expected 2144a23e5c792a53b7b80b4d6f3fdae23cae03b9)\nerror: failed to push some refs to 'https://github.com/gregpost/smart",
-  "suggestedActions": [
-    {
-      "id": "retry",
-      "label": "Повторить попытку",
-      "description": "Повторить выполнение push"
-    },
-    {
-      "id": "pull_rebase",
-      "label": "Синхронизировать с origin/main",
-      "description": "Стянуть обновления перед отправкой"
-    }
-  ],
+  "lastPushTime": "2026-11-12T17:16:05.807Z",
+  "lastPushStatus": "success",
+  "lastCommitHash": "f3a96a4",
+  "conflictDetails": null,
+  "suggestedActions": [],
   "history": [
+    {
+      "version": "0.1.648-activity-log",
+      "timestamp": "2026-11-12T17:16:05.807Z",
+      "message": "Фиксация активности \"Спорт\" на интервале 20:16",
+      "hash": "f3a96a4",
+      "status": "success"
+    },
     {
       "version": "0.1.647-activity-log",
       "timestamp": "2026-11-12T17:15:58.347Z",
@@ -223,13 +219,6 @@
       "timestamp": "2026-11-12T17:02:28.893Z",
       "message": "Фиксация активности \"Спорт\" на интервале 20:02",
       "hash": "243fb84",
-      "status": "success"
-    },
-    {
-      "version": "0.1.611-activity-log",
-      "timestamp": "2026-11-12T17:02:11.261Z",
-      "message": "Фиксация активности \"Спорт\" на интервале 20:02",
-      "hash": "7116073",
       "status": "success"
     }
   ]
