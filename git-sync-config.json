@@ -5,12 +5,30 @@
   "baseVersion": "0.1.591",
   "versionPostfix": "activity-log",
   "lastCommitMessage": "Фиксация активности \"Спорт\" на интервале 19:56",
-  "lastPushTime": "2026-11-12T16:55:08.476Z",
-  "lastPushStatus": "success",
+  "lastPushTime": "2026-11-12T16:56:15.462Z",
+  "lastPushStatus": "error",
   "lastCommitHash": "1f48ff6",
-  "conflictDetails": null,
-  "suggestedActions": [],
+  "conflictDetails": "Ошибка при отправке: To https://github.com/gregpost/smartwatch-time-tracker.git\n ! [remote rejected] main -> main (cannot lock ref 'refs/heads/main': is at 8352516edc55570972d90487270244db229fcfee but expected 1f48ff66e1b75272a1829ad0419f2c5b70e4d64a)\nerror: failed to push some refs to 'https://github.com/gregpost/smart",
+  "suggestedActions": [
+    {
+      "id": "retry",
+      "label": "Повторить попытку",
+      "description": "Повторить выполнение push"
+    },
+    {
+      "id": "pull_rebase",
+      "label": "Синхронизировать с origin/main",
+      "description": "Стянуть обновления перед отправкой"
+    }
+  ],
   "history": [
+    {
+      "version": "0.1.590-activity-log",
+      "timestamp": "2026-11-12T16:56:15.462Z",
+      "message": "Фиксация активности \"Спорт\" на интервале 19:55",
+      "hash": "1f48ff6",
+      "status": "error"
+    },
     {
       "version": "0.1.588-activity-log",
       "timestamp": "2026-11-12T16:55:08.476Z",
@@ -212,13 +230,6 @@
       "timestamp": "2026-11-12T16:46:53.360Z",
       "message": "Фиксация активности \"Спорт\" на интервале 19:47",
       "hash": "50d3396",
-      "status": "success"
-    },
-    {
-      "version": "0.1.559-activity-log",
-      "timestamp": "2026-11-12T16:46:35.745Z",
-      "message": "Фиксация активности \"Спорт\" на интервале 19:46",
-      "hash": "039a883",
       "status": "success"
     }
   ]
