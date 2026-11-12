@@ -1,7 +1,7 @@
 {
   "name": "react-example",
   "private": true,
-  "version": "0.1.386-activity-log",
+  "version": "0.1.387-activity-log",
   "type": "module",
   "scripts": {
     "dev": "tsx server.ts",
